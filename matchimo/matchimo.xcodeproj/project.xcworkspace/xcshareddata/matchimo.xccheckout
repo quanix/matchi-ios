@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>080C88F9-8FB3-4756-B252-8D4B2032D026</string>
+	<key>IDESourceControlProjectName</key>
+	<string>matchimo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>25D07062EEB6CC59A39EF49EB50E63479336639A</key>
+		<string>https://github.com/quanix/matchi-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>matchimo/matchimo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>25D07062EEB6CC59A39EF49EB50E63479336639A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/quanix/matchi-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>25D07062EEB6CC59A39EF49EB50E63479336639A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>25D07062EEB6CC59A39EF49EB50E63479336639A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>matchi-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>
