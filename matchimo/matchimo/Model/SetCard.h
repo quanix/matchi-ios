@@ -6,8 +6,8 @@
 //  Copyright (c) 2014年 steve. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Card.h"
 
-@interface SetCard : NSObject
+@interface SetCard : Card
 
 @end
