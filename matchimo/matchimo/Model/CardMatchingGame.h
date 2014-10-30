@@ -29,7 +29,7 @@
 @property (nonatomic, readonly)NSArray *lastChosenCards;//最近选择的卡
 @property (nonatomic, readonly)NSInteger lastScore;//最近分数
 
-@property (nonatomic,readonly)NSInteger numberOfDealtCards;
+@property (nonatomic,readonly)NSInteger numberOfDealtCards;//发牌的数量
 
 @property (nonatomic,readonly) BOOL deckIsEmpty;//是否空桌
 

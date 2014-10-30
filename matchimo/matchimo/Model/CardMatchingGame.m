@@ -37,7 +37,7 @@
 }
 
 - (NSUInteger)numberOfDealtCards {
-    return [self.cards count];
+    return [self.cards count];//返回cards的数量
 }
 
 - (instancetype)initWithCardCount:(NSUInteger)count
@@ -78,6 +78,7 @@ static const int COST_TO_CHOOSE = 1;
         if (card.isChosen) {
             card.chosen = NO;
         } else {
+            //初始化otherCards
             NSMutableArray *otherCards = [NSMutableArray array];
             for (Card *otherCard in self.cards) {
                 if (otherCard.isChosen && !otherCard.isMatched) {

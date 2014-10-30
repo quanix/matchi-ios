@@ -12,7 +12,7 @@
 
 @property (strong,nonatomic) NSString *contents;
 @property (nonatomic,getter=isChosen) BOOL chosen;
-@property (nonatomic,getter=IsMatched) BOOL matched;
+@property (nonatomic,getter=isMatched) BOOL matched;
 
 //默认玩匹配2张卡
 @property (nonatomic) NSInteger numberOfMatchingCards;
