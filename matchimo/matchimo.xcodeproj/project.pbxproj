@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE198A201A0289390049AE05 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE198A1F1A0289390049AE05 /* SettingsViewController.m */; };
+		DE198A231A0289680049AE05 /* ScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE198A221A0289680049AE05 /* ScoresViewController.m */; };
+		DE198A261A028B110049AE05 /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE198A251A028B110049AE05 /* CardGameViewController.m */; };
 		DE5E858019E1A58B00CDCE86 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5E857F19E1A58B00CDCE86 /* Card.m */; };
 		DE5E858519E1A60F00CDCE86 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5E858419E1A60F00CDCE86 /* CardMatchingGame.m */; };
 		DE5E858819E1A62E00CDCE86 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5E858719E1A62E00CDCE86 /* Deck.m */; };
@@ -20,8 +23,6 @@
 		DE5E85A019E1A98100CDCE86 /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5E859F19E1A98100CDCE86 /* PlayingCardView.m */; };
 		DEC51BFD19E12A95000C2F16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC51BFC19E12A95000C2F16 /* main.m */; };
 		DEC51C0019E12A95000C2F16 /* CardGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC51BFF19E12A95000C2F16 /* CardGameAppDelegate.m */; };
-		DEC51C0319E12A95000C2F16 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC51C0219E12A95000C2F16 /* FirstViewController.m */; };
-		DEC51C0619E12A95000C2F16 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC51C0519E12A95000C2F16 /* SecondViewController.m */; };
 		DEC51C0919E12A95000C2F16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC51C0719E12A95000C2F16 /* Main.storyboard */; };
 		DEC51C0B19E12A95000C2F16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEC51C0A19E12A95000C2F16 /* Images.xcassets */; };
 		DEC51C1A19E12A95000C2F16 /* matchimoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC51C1919E12A95000C2F16 /* matchimoTests.m */; };
@@ -38,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE198A1E1A0289390049AE05 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		DE198A1F1A0289390049AE05 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		DE198A211A0289680049AE05 /* ScoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoresViewController.h; sourceTree = "<group>"; };
+		DE198A221A0289680049AE05 /* ScoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoresViewController.m; sourceTree = "<group>"; };
+		DE198A241A028B110049AE05 /* CardGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
+		DE198A251A028B110049AE05 /* CardGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
 		DE5E857E19E1A58B00CDCE86 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
 		DE5E857F19E1A58B00CDCE86 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
 		DE5E858319E1A60F00CDCE86 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
@@ -65,10 +72,6 @@
 		DEC51BFC19E12A95000C2F16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEC51BFE19E12A95000C2F16 /* CardGameAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameAppDelegate.h; sourceTree = "<group>"; };
 		DEC51BFF19E12A95000C2F16 /* CardGameAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameAppDelegate.m; sourceTree = "<group>"; };
-		DEC51C0119E12A95000C2F16 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		DEC51C0219E12A95000C2F16 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		DEC51C0419E12A95000C2F16 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		DEC51C0519E12A95000C2F16 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		DEC51C0819E12A95000C2F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEC51C0A19E12A95000C2F16 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DEC51C1319E12A95000C2F16 /* matchimoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = matchimoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,14 +144,16 @@
 			isa = PBXGroup;
 			children = (
 				DEC51C0719E12A95000C2F16 /* Main.storyboard */,
+				DE198A241A028B110049AE05 /* CardGameViewController.h */,
+				DE198A251A028B110049AE05 /* CardGameViewController.m */,
 				DE5E859B19E1A94300CDCE86 /* PlayingCardGameViewController.h */,
 				DE5E859C19E1A94300CDCE86 /* PlayingCardGameViewController.m */,
 				DE5E859E19E1A98100CDCE86 /* PlayingCardView.h */,
 				DE5E859F19E1A98100CDCE86 /* PlayingCardView.m */,
-				DEC51C0119E12A95000C2F16 /* FirstViewController.h */,
-				DEC51C0219E12A95000C2F16 /* FirstViewController.m */,
-				DEC51C0419E12A95000C2F16 /* SecondViewController.h */,
-				DEC51C0519E12A95000C2F16 /* SecondViewController.m */,
+				DE198A211A0289680049AE05 /* ScoresViewController.h */,
+				DE198A221A0289680049AE05 /* ScoresViewController.m */,
+				DE198A1E1A0289390049AE05 /* SettingsViewController.h */,
+				DE198A1F1A0289390049AE05 /* SettingsViewController.m */,
 				DE5E858219E1A5BB00CDCE86 /* Model */,
 				DEC51C0A19E12A95000C2F16 /* Images.xcassets */,
 				DEC51BFA19E12A95000C2F16 /* Supporting Files */,
@@ -284,18 +289,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE5E859719E1A69900CDCE86 /* GameResult.m in Sources */,
+				DE198A231A0289680049AE05 /* ScoresViewController.m in Sources */,
 				DE5E859D19E1A94300CDCE86 /* PlayingCardGameViewController.m in Sources */,
 				DE5E858519E1A60F00CDCE86 /* CardMatchingGame.m in Sources */,
 				DE5E858E19E1A65900CDCE86 /* PlayingCardDeck.m in Sources */,
 				DE5E85A019E1A98100CDCE86 /* PlayingCardView.m in Sources */,
+				DE198A261A028B110049AE05 /* CardGameViewController.m in Sources */,
 				DE5E858819E1A62E00CDCE86 /* Deck.m in Sources */,
 				DE5E859419E1A68400CDCE86 /* SetCardDeck.m in Sources */,
 				DE5E858019E1A58B00CDCE86 /* Card.m in Sources */,
 				DE5E859119E1A66C00CDCE86 /* SetCard.m in Sources */,
 				DE5E859A19E1A6B500CDCE86 /* GameSettings.m in Sources */,
-				DEC51C0619E12A95000C2F16 /* SecondViewController.m in Sources */,
 				DEC51C0019E12A95000C2F16 /* CardGameAppDelegate.m in Sources */,
-				DEC51C0319E12A95000C2F16 /* FirstViewController.m in Sources */,
+				DE198A201A0289390049AE05 /* SettingsViewController.m in Sources */,
 				DE5E858B19E1A64400CDCE86 /* PlayingCard.m in Sources */,
 				DEC51BFD19E12A95000C2F16 /* main.m in Sources */,
 			);

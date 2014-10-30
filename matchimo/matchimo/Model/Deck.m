@@ -17,7 +17,7 @@
 
 @implementation Deck
 
-
+//相当于getCards
 - (NSMutableArray *) cards
 {
     if(!_cards) _cards = [[NSMutableArray alloc] init];
